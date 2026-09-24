@@ -42,6 +42,11 @@ APPROVERS = {
     "aida-m-scher": "Aida Memary Scher",
 }
 
+#: Media category of a comp building's photograph. A published item in this
+#: category renders beside its comp row and never in the subject gallery.
+COMP_PHOTO_CATEGORY = "comp_exterior"
+
+
 def approver_errors(name: object) -> list[str]:
     """Any non-empty human name is accepted; it is recorded and published as is."""
     if not isinstance(name, str) or len(name.strip()) < 2:
@@ -577,11 +582,20 @@ def check_site_record(site: Path) -> tuple[list[str], list[str], dict | None]:
                 )
                 if member_property.get("hero") != expected_member_hero:
                     errors.append(f"site {deal_id} hero differs from approval")
+                # A comp building's photograph is not a subject photo. It is
+                # filed with category "comp_exterior" (comps/comp_photos.md), and
+                # the media manifest the gate reads here has already been proven
+                # against the approval's media selection above, so the exclusion
+                # rests on approval-bound data, never on the site payload's rows.
+                # Without this the gate refused every portfolio with comp photos
+                # (Krasno, 09/24/2026).
                 expected_member_gallery = []
                 for raw_id in member_media.get("order") or []:
                     if raw_id == member_hero:
                         continue
                     item = combined_by_id.get(f"{prefix}{raw_id}")
+                    if item and item.get("category") == COMP_PHOTO_CATEGORY:
+                        continue
                     if item:
                         expected_member_gallery.append(
                             {

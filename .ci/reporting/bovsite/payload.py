@@ -1812,6 +1812,27 @@ def _build_portfolio_payload(workspace: DealWorkspace) -> tuple[dict, dict, dict
         hero_id = member_media["published"]["hero"]
         if hero_id:
             prop["hero"] = f"images/{filename_map[(deal_id, hero_id)]}"
+        # Comp photographs are published media items like any other, so in a
+        # portfolio they are copied under the member-prefixed filename with the
+        # rest. The comp rows still name the bare file, which in a portfolio
+        # resolves to nothing: that is why Krasno shipped with no comp photos
+        # (Glen, 2026-09-24). Point every comp row at the prefixed copy, and
+        # keep those items out of the subject gallery, the same filter the
+        # single-building payload applies on actual use.
+        prefixed_by_filename = {
+            item["filename"]: filename_map[(deal_id, item["id"])]
+            for item in member_media["archive"]
+            if (deal_id, item["id"]) in filename_map
+        }
+        comp_images = set()
+        for rows_key in ("sale_comps", "active_comps", "rent_comps"):
+            for row in prop.get(rows_key) or []:
+                image = row.get("image")
+                if not image:
+                    continue
+                comp_images.add(image)
+                if image in prefixed_by_filename:
+                    row["image"] = prefixed_by_filename[image]
         prop["gallery"] = [
             {
                 "src": f"images/{filename_map[(deal_id, item_id)]}",
@@ -1819,6 +1840,8 @@ def _build_portfolio_payload(workspace: DealWorkspace) -> tuple[dict, dict, dict
             }
             for item_id in member_media["published"]["order"]
             if item_id != hero_id
+            and by_id[item_id]["filename"] not in comp_images
+            and by_id[item_id].get("category") != "comp_exterior"
         ]
         prop["card_image"] = prop["hero"]
         # Model print pages are staged per member under the member slug so
