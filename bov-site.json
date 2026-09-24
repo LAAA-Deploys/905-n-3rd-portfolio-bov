@@ -597,7 +597,7 @@
         "Burbank's soft-story ordinance applies to wood frame buildings designed before 1978 with open or weak ground floors, with engineered plans due 01/11/2027. A buyer will ask whether the building is in scope and where it stands, so that answer belongs in the offering before it goes out."
       ],
       "market_narrative": [
-        "Six Burbank apartment sales of 11 to 24 units closed between December 2025 and September 2026 at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
+        "Five Burbank apartment sales of 11 to 14 units, every one built between 1951 and 1966 and closed between December 2025 and September 2026, at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent; the one 1987 sale in the pool is left out as a different product. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
         "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.4%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
         "A buyer today pays more for money than the buyers who set those comps. That is why the recommended price sits at a 6.0% cap, at the middle of the comparable yields rather than the low end of them."
       ],
@@ -1059,34 +1059,6 @@
           "rate_lock_date": "2026-02-09",
           "map_ref": 5,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.1777465,-118.3026555&query_place_id=ChIJ8_e9plWVwoARtvHThx9GaRE"
-        },
-        {
-          "address": "515-525 E Elmwood Ave, Burbank, CA 91501",
-          "status": "Closed",
-          "price": 8820000,
-          "units": 24,
-          "year_built": 1987,
-          "building_sf": 23440,
-          "lot_sf": 18185,
-          "date": "2026-01-09",
-          "days_on_market": 57,
-          "price_per_unit": 367500.0,
-          "price_per_sf": 376.28,
-          "price_per_land_sf": 485.01512235358814,
-          "grm": 11.61,
-          "cap_rate": 5.89,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "side_by_side": true,
-          "summary": "The largest sale in the set, a newer 24-unit building; the size of buyer 905 draws.",
-          "relevance": "24 units, all two bedroom two bath, built 1987, 23,440 SF on 18,185 SF (LightBox; assessor situs 525 E Elmwood)",
-          "considerations": "Closed 01/09/2026 at 96.9% of the $9,100,000 list price after 57 days; deed recorded 01/12/2026",
-          "treasury_3y": 3.56,
-          "treasury_5y": 3.72,
-          "rate_lock_date": "2025-12-10",
-          "map_ref": 6,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.180063499999996,-118.29787049999999&query_place_id=ChIJ85sFH6vqwoAR-5o7EjMVY-k"
         }
       ],
       "rate_environment": {
@@ -1121,56 +1093,6 @@
           "considerations": "Asking price as of 09/04/2026 (CoStar)",
           "map_ref": 1,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.1812918,-118.2974204&query_place_id=ChIJ2cE8bavqwoAR3zb_DQYBgLQ"
-        },
-        {
-          "address": "1815 W Alameda Ave, Burbank, CA 91506",
-          "status": "Active",
-          "price": 7850000,
-          "units": 20,
-          "year_built": 1986,
-          "building_sf": 19358,
-          "lot_sf": 16273,
-          "date": "2026-09-04",
-          "days_on_market": null,
-          "price_per_unit": 392500.0,
-          "price_per_sf": 405.52,
-          "price_per_land_sf": 482.3941498187181,
-          "grm": null,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "side_by_side": false,
-          "summary": "A newer 20-unit building on the market in west Burbank.",
-          "relevance": "20 units, built 1986, 19,358 SF on 16,273 SF (LightBox, assessor situs 1819 W Alameda)",
-          "considerations": "Asking price as of 09/04/2026 (CoStar)",
-          "map_ref": 2,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.160643199999996,-118.32181190000001&query_place_id=ChIJq-PRDui_woARNHMcgjlyg1g"
-        },
-        {
-          "address": "2001-2005 Grismer Ave, Burbank, CA 91504",
-          "status": "Active",
-          "price": 5250000,
-          "units": 14,
-          "year_built": 1987,
-          "building_sf": 11334,
-          "lot_sf": 11440,
-          "date": "2026-09-18",
-          "days_on_market": null,
-          "price_per_unit": 375000.0,
-          "price_per_sf": 463.21,
-          "price_per_land_sf": 458.9160839160839,
-          "grm": null,
-          "cap_rate": null,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "side_by_side": false,
-          "summary": "A newer 14-unit building on the market in north Burbank.",
-          "relevance": "14 two bedroom two bath units, built 1987, 11,334 SF on 11,440 SF (LightBox)",
-          "considerations": "Asking price after the 09/18/2026 reduction; on the market since 06/26/2026",
-          "map_ref": 3,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.196584,-118.326102&query_place_id=ChIJZ_aKjhaVwoARlrDv5HL_MOw"
         }
       ],
       "map_points": [],
@@ -1319,7 +1241,7 @@
         ],
         "closings_map": {
           "source": "https://www.laaa.com/track-record",
-          "pulled": "2026-09-22T22:36:52+00:00",
+          "pulled": "2026-09-24T19:30:58+00:00",
           "basis": {
             "type": "submarket",
             "label": "Burbank"
@@ -1680,7 +1602,7 @@
         "The rent roll shows square footage for two units at 750 SF each. The county's 4,000 SF across six units supports about 650 SF per unit, and unit sizes here are estimates at that figure."
       ],
       "market_narrative": [
-        "Seven Burbank apartment sales of five to eleven units closed between September 2025 and July 2026 at $216,667 to $400,000 per unit. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
+        "Five Burbank apartment sales of five to eight units closed between September 2025 and May 2026 at $216,667 to $332,375 per unit; a seller-financed sale and an eleven-unit building are left out as context only. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
         "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.3%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
         "A buyer today pays more for new money than the buyers who set those comps. The assumable 3.95% loan closes most of that gap for this building, which is why it carries a tighter yield than the larger building next door."
       ],
@@ -2102,62 +2024,6 @@
           "rate_lock_date": "2025-09-15",
           "map_ref": 5,
           "map_url": "https://www.google.com/maps/search/?api=1&query=34.1895369,-118.3087686&query_place_id=ChIJ47yILk-VwoARztMKdpkJx3M"
-        },
-        {
-          "address": "615 E Magnolia Blvd, Burbank, CA 91501",
-          "status": "Closed",
-          "price": 3000000,
-          "units": 11,
-          "year_built": 1962,
-          "building_sf": 7874,
-          "lot_sf": 8692,
-          "date": "2026-05-12",
-          "days_on_market": 86,
-          "price_per_unit": 272727.27,
-          "price_per_sf": 381.0,
-          "price_per_land_sf": 345.1449608835711,
-          "grm": 10.86,
-          "cap_rate": 6.660000000000001,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "side_by_side": true,
-          "summary": "A larger 1960s building nearby, for context on yield.",
-          "relevance": "11 units, built 1962, 7,874 SF on 8,692 SF (LightBox)",
-          "considerations": "Three units vacant at the sale; Closed 05/12/2026 at 85.8% of the $3,495,000 list price after 86 days",
-          "treasury_3y": 3.8,
-          "treasury_5y": 3.94,
-          "rate_lock_date": "2026-04-12",
-          "map_ref": 6,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1883969,-118.306567&query_place_id=ChIJyVOojU6VwoARlHYJP5vUG-A"
-        },
-        {
-          "address": "140 N Pass Ave, Burbank, CA 91505",
-          "status": "Closed",
-          "price": 2000000,
-          "units": 5,
-          "year_built": 1941,
-          "building_sf": 4077,
-          "lot_sf": 5660,
-          "date": "2026-07-17",
-          "days_on_market": 318,
-          "price_per_unit": 400000.0,
-          "price_per_sf": 490.56,
-          "price_per_land_sf": 353.35689045936397,
-          "grm": 14.65,
-          "cap_rate": 4.31,
-          "image": null,
-          "restatement": null,
-          "document": null,
-          "side_by_side": true,
-          "summary": "The same 1941 vintage, but seller financing at 5% makes its price a ceiling rather than a market read.",
-          "relevance": "Five units, built 1941, 4,077 SF on 5,660 SF (LightBox), next door to 136 N Pass",
-          "considerations": "Seller carried a $1,700,000 first at 5%; the financing likely lifted the price; Closed 07/17/2026 at 95.2% of the $2,100,000 list price after 318 days",
-          "treasury_3y": 4.23,
-          "treasury_5y": 4.27,
-          "rate_lock_date": "2026-06-17",
-          "map_ref": 7,
-          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1508174,-118.34310260000001&query_place_id=ChIJ1cf3fsy_woARlwVDB-K3v-I"
         }
       ],
       "rate_environment": {
@@ -2250,7 +2116,7 @@
         ],
         "closings_map": {
           "source": "https://www.laaa.com/track-record",
-          "pulled": "2026-09-22T22:37:09+00:00",
+          "pulled": "2026-09-24T19:30:58+00:00",
           "basis": {
             "type": "submarket",
             "label": "Burbank"
@@ -2391,7 +2257,7 @@
         },
         "local_listings_source": {
           "source": "https://www.laaa.com/listings",
-          "pulled": "2026-09-24T18:30:44+00:00"
+          "pulled": "2026-09-24T19:31:55+00:00"
         }
       },
       "deal_id": "237-239-e-burbank",
@@ -2529,7 +2395,7 @@
           },
           "buyer_profile": {
             "market_narrative": [
-              "Six Burbank apartment sales of 11 to 24 units closed between December 2025 and September 2026 at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
+              "Five Burbank apartment sales of 11 to 14 units, every one built between 1951 and 1966 and closed between December 2025 and September 2026, at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent; the one 1987 sale in the pool is left out as a different product. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
               "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.4%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
               "A buyer today pays more for money than the buyers who set those comps. That is why the recommended price sits at a 6.0% cap, at the middle of the comparable yields rather than the low end of them."
             ],
@@ -2887,7 +2753,7 @@
               "comps-sale:sale-04"
             ],
             "framed_as": null,
-            "text": "Six Burbank apartment sales of 11 to 24 units closed between December 2025 and September 2026 at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap."
+            "text": "Five Burbank apartment sales of 11 to 14 units, every one built between 1951 and 1966 and closed between December 2025 and September 2026, at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent; the one 1987 sale in the pool is left out as a different product. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap."
           },
           {
             "id": "market-2",
@@ -3111,7 +2977,7 @@
           },
           "buyer_profile": {
             "market_narrative": [
-              "Seven Burbank apartment sales of five to eleven units closed between September 2025 and July 2026 at $216,667 to $400,000 per unit. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
+              "Five Burbank apartment sales of five to eight units closed between September 2025 and May 2026 at $216,667 to $332,375 per unit; a seller-financed sale and an eleven-unit building are left out as context only. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
               "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.3%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
               "A buyer today pays more for new money than the buyers who set those comps. The assumable 3.95% loan closes most of that gap for this building, which is why it carries a tighter yield than the larger building next door."
             ],
@@ -3463,7 +3329,7 @@
               "comps-sale:sale-05"
             ],
             "framed_as": null,
-            "text": "Seven Burbank apartment sales of five to eleven units closed between September 2025 and July 2026 at $216,667 to $400,000 per unit. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap."
+            "text": "Five Burbank apartment sales of five to eight units closed between September 2025 and May 2026 at $216,667 to $332,375 per unit; a seller-financed sale and an eleven-unit building are left out as context only. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap."
           },
           {
             "id": "market-2",
@@ -3692,7 +3558,7 @@
             },
             "buyer_profile": {
               "market_narrative": [
-                "Six Burbank apartment sales of 11 to 24 units closed between December 2025 and September 2026 at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
+                "Five Burbank apartment sales of 11 to 14 units, every one built between 1951 and 1966 and closed between December 2025 and September 2026, at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent; the one 1987 sale in the pool is left out as a different product. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap.",
                 "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.4%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
                 "A buyer today pays more for money than the buyers who set those comps. That is why the recommended price sits at a 6.0% cap, at the middle of the comparable yields rather than the low end of them."
               ],
@@ -4050,7 +3916,7 @@
                 "comps-sale:sale-04"
               ],
               "framed_as": null,
-              "text": "Six Burbank apartment sales of 11 to 24 units closed between December 2025 and September 2026 at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap."
+              "text": "Five Burbank apartment sales of 11 to 14 units, every one built between 1951 and 1966 and closed between December 2025 and September 2026, at $264,643 to $380,769 per unit and 10.56 to 13.44 times gross rent; the one 1987 sale in the pool is left out as a different product. The closest in age and size, 1799 N Hollywood Way, 13 units built in 1963, closed at $3.45M in December 2025, $265,385 per unit, a 6.26% cap on its own income. 233-237 N Hollywood Way, 14 units, closed at $3.705M, a 5.95% cap, and 615 E Magnolia Boulevard, 11 units, at $3.0M, a 6.66% cap."
             },
             {
               "id": "market-2",
@@ -4585,7 +4451,7 @@
             },
             "buyer_profile": {
               "market_narrative": [
-                "Seven Burbank apartment sales of five to eleven units closed between September 2025 and July 2026 at $216,667 to $400,000 per unit. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
+                "Five Burbank apartment sales of five to eight units closed between September 2025 and May 2026 at $216,667 to $332,375 per unit; a seller-financed sale and an eleven-unit building are left out as context only. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap.",
                 "Thirty days before each of those sales closed, the 5-year Treasury ran 3.6% to 4.3%. On 09/18/2026 it stood at 4.86% (Federal Reserve Bank of St. Louis, FRED series DGS5).",
                 "A buyer today pays more for new money than the buyers who set those comps. The assumable 3.95% loan closes most of that gap for this building, which is why it carries a tighter yield than the larger building next door."
               ],
@@ -4937,7 +4803,7 @@
                 "comps-sale:sale-05"
               ],
               "framed_as": null,
-              "text": "Seven Burbank apartment sales of five to eleven units closed between September 2025 and July 2026 at $216,667 to $400,000 per unit. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap."
+              "text": "Five Burbank apartment sales of five to eight units closed between September 2025 and May 2026 at $216,667 to $332,375 per unit; a seller-financed sale and an eleven-unit building are left out as context only. 136 N Pass Avenue, five units built in 1941, closed at $1.61M in May 2026, $322,000 per unit, a 5.23% cap on its own income. 606 N 6th Street, eight units, closed at $2.12M, a 5.89% cap, and 1608 Grismer Avenue, eight two bedroom units, at $2.4M, a 6.75% cap."
             },
             {
               "id": "market-2",
@@ -5395,10 +5261,10 @@
     "domains": {
       "identity": "70852fbb87e20155e93f846a3bb0ab8dcbb7b86174c7edf4174423930ea1e81e",
       "financial_inputs": "344698e52f4327cd883c109cc0e6e235be9424cde7691c2128cef602a8c052cc",
-      "pricing_decision": "c25332f76fd6efcb8de01d9135e12844393a3a0501cd0e30228e080b29444ec0",
-      "sale_comps": "531c53a2be90856d5bccf7068fa07a674459edcb709ff34c8dd3365144f68137",
+      "pricing_decision": "68dd48555d85404fcde57b6ee45edac058220272730afed08241dd41a50a7e87",
+      "sale_comps": "10f81dc525c69d817a0eb990df975c1d8f77ff8797119a95b8c04dc6e4c1411f",
       "rent_comps": "8caecb77f9ffc1a3969ad7c6c43c8d41deca47a46ae599f26b4d3b920195a9ab",
-      "copy": "e05128180fa323263b92fcae95337d30069b5e4e83d500ff02f21fe120bd7bc3",
+      "copy": "2675523a518af95191786d74cd5110da825dfd4f0de5727882650d98f9cd3aa0",
       "media_selection": "ff38753fdae3b9af532cf6bd83e62ef81925f105b187f0e54c3e8e04ad0ace6c",
       "regulatory_conclusions": "b7dad061e7f7e3e0c3b6579341087e17c59e8cc40d739ae936220f7b5242f927"
     },
@@ -5406,20 +5272,20 @@
       "905-n-3rd": {
         "identity": "a738911a532218b9c6c6ae7effaab6509cc1827a65533c18d3b88d07665acbb3",
         "financial_inputs": "5c4d259ef64db8be7303a10e5a796822aa8c4f1114d5d7543c60d39cf63fe625",
-        "pricing_decision": "120955c290f3b53e40b3afa7103a9b9e36aa14fccd1427c0f5cf8d5d5e036ef4",
-        "sale_comps": "8f8148250fdf16e7c1c412301e1cdff87354ddac07a54783fd26375e51345e62",
+        "pricing_decision": "1a63180b7fd958156cc414b5883f4eec543a4a3375367af84618c4c04d309740",
+        "sale_comps": "c8eb7c86a0916d4eb4bfb22ed4d225523c4ce664b8ee755c3f6de75b5e1d2914",
         "rent_comps": "6163fe1ff6f27d3e97748cc12ea0901d38e1bfeca100172e440513b431aab845",
-        "copy": "c6b9ad9d9c50c87436eeaab37edacc3fb0455298d6269bc8f1cb934ce694ad59",
+        "copy": "c5f3f6aef7c0e2a1e347190dc3ccff708597b45a0d012b22413bc5ad1331f2a2",
         "media_selection": "8f6372a618adc0aa2abc4f65d30ea346c3082ed9a6a15222de0e5fcffc4dfd4e",
         "regulatory_conclusions": "055b062f7b3ba2f898f6e7424ade4f2cc356158e8aa0ddad6ffcf1c77d1172ea"
       },
       "237-239-e-burbank": {
         "identity": "aef1e82de13ecabcc474abc535e67868d38cc2b55cf7618bdac1219dfb5bb236",
         "financial_inputs": "c8f4104a4caf9777d82dd221dc0deffa7c75c30c93f84b7ec4593370b5dc2b46",
-        "pricing_decision": "b59b3028b89739c772ef2e9cca7c5ec6f0aa17390c681221576c78c3dd5bcc4c",
-        "sale_comps": "858907fa1a0c9a8d928ec037240193bb9523595842ec7d0f532932560ac03932",
+        "pricing_decision": "a4e19165e529a3a1fb9340afca4f05222de2ead4b8528ec8f7a7ecf0dea1c5dc",
+        "sale_comps": "92dda96d7f740fbd32f815c998bc7098c80ed0d22393360b80a0c921bf280a66",
         "rent_comps": "2b46319162151269156f4cba9510550017ee50932b75ec44af3ccb2653c95963",
-        "copy": "51a5b66b316380b591d827018ab2aa33caf40dc75e22825e011356253e265c47",
+        "copy": "1a08139908b0777bb2d02a99df5bd7d35a210751c8cb2158e530a3deda71102d",
         "media_selection": "fac440171de06011c93fed88fd03e6aedaa58d01238316c345081a2635ddacbf",
         "regulatory_conclusions": "8eb5aca6340863e26dc9b336f60861bd1984e613c61e66dfabcf8e1293e98b75"
       }
@@ -5428,16 +5294,16 @@
       "identity": "946aa473feabcd885919124c6dd3051f42d76f40ae7cd48e23de620986a12bf4",
       "financial_inputs": "95bae5bb6ed8dcf33699d934a9c01542e769933ae230659c7d60f664561e77cb",
       "pricing_decision": "d8fc1e63adc6eb8768521f867e07a54f0ed76f8a076d6299babe3205f6e35308",
-      "sale_comps": "2b775f0af441e1b7ebed1078b6e626d3486bbfce114a1a9645bdaf894a96ec48",
+      "sale_comps": "76d83b00c86c6ff49fa808d3d0bb0f6ee6e632bb421bd591961a8c24ac29b6a0",
       "rent_comps": "3f2987b062f0b27f569efbb0b3e54d84d0ddffdcb6c965e3be2cfd7bce4ea86b",
-      "copy": "51a67c984571c3bd517a63454205ed688e745f38bc8d3e36d89649ed1c394f84",
+      "copy": "7379e1ac635255e2aac71550db6f1069dfe07835fc541865456ec28de6b539d9",
       "media_selection": "08286d1b83953c32e964ea6a1773732e5d4d0d32d3847a0b21d72ba913c1d46a",
       "regulatory_conclusions": "f3b9e46a2631af720023819e7750e776098d8c9fd5f3650097bff3b1d7849cb1"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-24T18:30:44+00:00",
+    "generated": "2026-09-24T19:31:55+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

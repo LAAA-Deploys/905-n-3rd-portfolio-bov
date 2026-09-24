@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
-<meta name="laaa-figures-pulled" content="2026-09-24T18:30:44+00:00">
+<meta name="laaa-figures-pulled" content="2026-09-24T19:31:55+00:00">
 <meta name="description" content="37-Unit Two-Property Multifamily Portfolio | LAAA Team - Marcus &amp; Millichap">
 <meta property="og:title" content="Broker Opinion of Value - 905 N 3rd St &amp; 237-239 E Burbank Blvd">
 <meta property="og:description" content="37-Unit Two-Property Multifamily Portfolio | LAAA Team - Marcus &amp; Millichap">
@@ -529,6 +529,15 @@ td.num, th.num { text-align: right; }
 .prop-bar a + a { border-left: 1px solid rgba(27,58,92,0.25); }
 .prop-bar a:hover { background: rgba(27,58,92,0.08); }
 .prop-bar a.prop-bar-current { background: #1B3A5C; color: #C5A258; }
+/* The bar scrolls sideways on a phone like the section menu, so it gets the same
+   edge fades (Glen 2026-09-24: the third building's tab was cut to "12535 PACIFIC A"
+   with nothing saying there was more) and the page scrolls its own tab into view. */
+.prop-bar-wrap { position: relative; }
+.prop-bar-wrap::before, .prop-bar-wrap::after { content: ""; position: absolute; top: 0; bottom: 0; width: 30px; z-index: 2; pointer-events: none; opacity: 0; transition: opacity .18s ease; }
+.prop-bar-wrap::before { left: 0; background: linear-gradient(to right, #C5A258 15%, rgba(197,162,88,0)); }
+.prop-bar-wrap::after { right: 0; background: linear-gradient(to left, #C5A258 15%, rgba(197,162,88,0)); }
+.prop-bar-wrap.can-left::before { opacity: 1; }
+.prop-bar-wrap.can-right::after { opacity: 1; }
 .member-header { min-height: 46vh; }
 .member-header .cover-content { padding: 44px 24px 36px; }
 .member-header .cover-title { font-size: 40px; }
@@ -696,11 +705,11 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
     <p style="font-size:12px;color:rgba(255,255,255,0.55);margin-top:8px;">September 2026</p>
   </div>
 </div>
-<div class="site-top" id="site-top"><nav class="prop-bar" id="prop-bar" aria-label="Properties">
+<div class="site-top" id="site-top"><div class="prop-bar-wrap" id="prop-bar-wrap"><nav class="prop-bar" id="prop-bar" aria-label="Properties">
   <a href="index.html" class="prop-bar-current" aria-current="page">All Properties</a>
   <a href="905-n-3rd/index.html">905 N 3rd St</a>
   <a href="237-239-e-burbank/index.html">237-239 E Burbank Blvd</a>
-</nav>
+</nav></div>
 <div class="toc-nav-wrap" id="toc-nav-wrap"><nav class="toc-nav" id="toc-nav">
   <a href="#portfolio">Portfolio</a>
   <a href="#track-record">Track Record</a>
@@ -760,7 +769,7 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
     </div>
     <div class="tr-closings-figure">
       <div class="tr-closings-frame"><img src="images/maps-905-n-3rd-closings.png" alt="LAAA closings near 905 N 3rd St" loading="lazy"></div>
-      <p class="tr-map-caption">905 N 3rd St is the gold marker. Navy markers are the 10 apartment buildings the LAAA Team has closed in Burbank; lighter markers are 3 other LAAA closings in the same area. Repeat sales at one building share a marker. Source: <a href="https://www.laaa.com/track-record" target="_blank" rel="noopener">laaa.com/track-record</a>, as of September 22, 2026.</p>
+      <p class="tr-map-caption">905 N 3rd St is the gold marker. Navy markers are the 10 apartment buildings the LAAA Team has closed in Burbank; lighter markers are 3 other LAAA closings in the same area. Repeat sales at one building share a marker. Source: <a href="https://www.laaa.com/track-record" target="_blank" rel="noopener">laaa.com/track-record</a>, as of September 24, 2026.</p>
     </div>
   </div>
   <div class="tr-service-quote">
@@ -889,6 +898,26 @@ window.addEventListener('scroll', function () {
   window.requestAnimationFrame(function () { updateActiveTocLink(); ticking = false; });
 }, { passive: true });
 updateActiveTocLink();
+
+/* The property bar: fade the edge that still has buildings beyond it, and bring
+   the current building's tab into view on load, so a phone never opens on a
+   clipped tab (Glen, 2026-09-24: the third tab read "12535 PACIFIC A"). */
+var propBar = document.getElementById('prop-bar'), propWrap = document.getElementById('prop-bar-wrap');
+function updatePropFades() {
+  if (!propBar || !propWrap) return;
+  var max = propBar.scrollWidth - propBar.clientWidth;
+  propWrap.classList.toggle('can-left', propBar.scrollLeft > 4);
+  propWrap.classList.toggle('can-right', propBar.scrollLeft < max - 4);
+}
+if (propBar) {
+  propBar.addEventListener('scroll', updatePropFades, { passive: true });
+  window.addEventListener('resize', updatePropFades);
+  var currentTab = propBar.querySelector('.prop-bar-current');
+  if (currentTab && propBar.scrollWidth > propBar.clientWidth) {
+    propBar.scrollLeft = Math.max(0, currentTab.offsetLeft - (propBar.clientWidth / 2) + (currentTab.offsetWidth / 2));
+  }
+  updatePropFades();
+}
 
 /* Fade whichever edge still has links beyond it, so a chopped word on a phone
    reads as "there is more this way" instead of looking broken. */

@@ -3,8 +3,8 @@
   "scope": "portfolio",
   "deal_id": "moll-burbank-portfolio",
   "portfolio_id": "moll-burbank-portfolio",
-  "package_version": "v4",
-  "approved_at": "2026-09-24T18:30:32.403784+00:00",
+  "package_version": "v5",
+  "approved_at": "2026-09-24T19:31:44.240635+00:00",
   "approver": "Glen Scher",
   "price": {
     "value": 9225000
@@ -23,7 +23,7 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "e05128180fa323263b92fcae95337d30069b5e4e83d500ff02f21fe120bd7bc3"
+      "content_sha256": "2675523a518af95191786d74cd5110da825dfd4f0de5727882650d98f9cd3aa0"
     },
     "financial_inputs": {
       "content_sha256": "344698e52f4327cd883c109cc0e6e235be9424cde7691c2128cef602a8c052cc"
@@ -35,7 +35,7 @@
       "content_sha256": "ff38753fdae3b9af532cf6bd83e62ef81925f105b187f0e54c3e8e04ad0ace6c"
     },
     "pricing_decision": {
-      "content_sha256": "c25332f76fd6efcb8de01d9135e12844393a3a0501cd0e30228e080b29444ec0"
+      "content_sha256": "68dd48555d85404fcde57b6ee45edac058220272730afed08241dd41a50a7e87"
     },
     "regulatory_conclusions": {
       "content_sha256": "b7dad061e7f7e3e0c3b6579341087e17c59e8cc40d739ae936220f7b5242f927"
@@ -44,7 +44,7 @@
       "content_sha256": "8caecb77f9ffc1a3969ad7c6c43c8d41deca47a46ae599f26b4d3b920195a9ab"
     },
     "sale_comps": {
-      "content_sha256": "531c53a2be90856d5bccf7068fa07a674459edcb709ff34c8dd3365144f68137"
+      "content_sha256": "10f81dc525c69d817a0eb990df975c1d8f77ff8797119a95b8c04dc6e4c1411f"
     }
   },
   "legacy_snapshot": false,
@@ -53,20 +53,20 @@
     "905-n-3rd": {
       "identity": "a738911a532218b9c6c6ae7effaab6509cc1827a65533c18d3b88d07665acbb3",
       "financial_inputs": "5c4d259ef64db8be7303a10e5a796822aa8c4f1114d5d7543c60d39cf63fe625",
-      "pricing_decision": "120955c290f3b53e40b3afa7103a9b9e36aa14fccd1427c0f5cf8d5d5e036ef4",
-      "sale_comps": "8f8148250fdf16e7c1c412301e1cdff87354ddac07a54783fd26375e51345e62",
+      "pricing_decision": "1a63180b7fd958156cc414b5883f4eec543a4a3375367af84618c4c04d309740",
+      "sale_comps": "c8eb7c86a0916d4eb4bfb22ed4d225523c4ce664b8ee755c3f6de75b5e1d2914",
       "rent_comps": "6163fe1ff6f27d3e97748cc12ea0901d38e1bfeca100172e440513b431aab845",
-      "copy": "c6b9ad9d9c50c87436eeaab37edacc3fb0455298d6269bc8f1cb934ce694ad59",
+      "copy": "c5f3f6aef7c0e2a1e347190dc3ccff708597b45a0d012b22413bc5ad1331f2a2",
       "media_selection": "8f6372a618adc0aa2abc4f65d30ea346c3082ed9a6a15222de0e5fcffc4dfd4e",
       "regulatory_conclusions": "055b062f7b3ba2f898f6e7424ade4f2cc356158e8aa0ddad6ffcf1c77d1172ea"
     },
     "237-239-e-burbank": {
       "identity": "aef1e82de13ecabcc474abc535e67868d38cc2b55cf7618bdac1219dfb5bb236",
       "financial_inputs": "c8f4104a4caf9777d82dd221dc0deffa7c75c30c93f84b7ec4593370b5dc2b46",
-      "pricing_decision": "b59b3028b89739c772ef2e9cca7c5ec6f0aa17390c681221576c78c3dd5bcc4c",
-      "sale_comps": "858907fa1a0c9a8d928ec037240193bb9523595842ec7d0f532932560ac03932",
+      "pricing_decision": "a4e19165e529a3a1fb9340afca4f05222de2ead4b8528ec8f7a7ecf0dea1c5dc",
+      "sale_comps": "92dda96d7f740fbd32f815c998bc7098c80ed0d22393360b80a0c921bf280a66",
       "rent_comps": "2b46319162151269156f4cba9510550017ee50932b75ec44af3ccb2653c95963",
-      "copy": "51a5b66b316380b591d827018ab2aa33caf40dc75e22825e011356253e265c47",
+      "copy": "1a08139908b0777bb2d02a99df5bd7d35a210751c8cb2158e530a3deda71102d",
       "media_selection": "fac440171de06011c93fed88fd03e6aedaa58d01238316c345081a2635ddacbf",
       "regulatory_conclusions": "8eb5aca6340863e26dc9b336f60861bd1984e613c61e66dfabcf8e1293e98b75"
     }

@@ -72,18 +72,6 @@
     },
     {
       "property": "905-n-3rd",
-      "category": "sold",
-      "order": 6,
-      "lat": 34.180063499999996,
-      "lng": -118.29787049999999,
-      "place_id": "ChIJ85sFH6vqwoAR-5o7EjMVY-k",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "address": "515-525 E Elmwood Ave, Burbank, CA 91501",
-      "comp_id": "sale-06"
-    },
-    {
-      "property": "905-n-3rd",
       "category": "active",
       "order": 1,
       "lat": 34.1812918,
@@ -93,30 +81,6 @@
       "needs_review": false,
       "address": "700 S 6th St, Burbank, CA 91501",
       "comp_id": "active-01"
-    },
-    {
-      "property": "905-n-3rd",
-      "category": "active",
-      "order": 2,
-      "lat": 34.160643199999996,
-      "lng": -118.32181190000001,
-      "place_id": "ChIJq-PRDui_woARNHMcgjlyg1g",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "address": "1815 W Alameda Ave, Burbank, CA 91506",
-      "comp_id": "active-02"
-    },
-    {
-      "property": "905-n-3rd",
-      "category": "active",
-      "order": 3,
-      "lat": 34.196584,
-      "lng": -118.326102,
-      "place_id": "ChIJZ_aKjhaVwoARlrDv5HL_MOw",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "address": "2001-2005 Grismer Ave, Burbank, CA 91504",
-      "comp_id": "active-03"
     },
     {
       "property": "905-n-3rd",
@@ -346,30 +310,6 @@
     },
     {
       "property": "237-239-e-burbank",
-      "category": "sold",
-      "order": 6,
-      "lat": 34.1883969,
-      "lng": -118.306567,
-      "place_id": "ChIJyVOojU6VwoARlHYJP5vUG-A",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "address": "615 E Magnolia Blvd, Burbank, CA 91501",
-      "comp_id": "sale-06"
-    },
-    {
-      "property": "237-239-e-burbank",
-      "category": "sold",
-      "order": 7,
-      "lat": 34.1508174,
-      "lng": -118.34310260000001,
-      "place_id": "ChIJ1cf3fsy_woARlwVDB-K3v-I",
-      "precision": "ROOFTOP",
-      "needs_review": false,
-      "address": "140 N Pass Ave, Burbank, CA 91505",
-      "comp_id": "sale-07"
-    },
-    {
-      "property": "237-239-e-burbank",
       "category": "active",
       "order": 1,
       "lat": 34.1556504,
@@ -502,31 +442,31 @@
     }
   ],
   "renders": {
-    "images/maps-905-n-3rd-closings.png": "ac0424567a936c137102a146b04e2b8f49dfaaca740bc6aa65d55cc77fea0cfe",
-    "images/maps-portfolio-subjects.png": "9af8ee1814ddbb006275f6ce0e62d2d3560588224b767078dcc91004fb80304f",
-    "images/maps-portfolio-subjects-tall.png": "1611077e530e527423418aa802fc8697e290f90e80f575ceb88fc7d1e2698100",
-    "images/maps-237-239-e-burbank-subject.png": "c0304b02ce2e1109c5c326254b27eda21f61d8391190544c0c6ea553d45b0c2e",
-    "images/maps-237-239-e-burbank-subject-tall.png": "01ef441c2a78bf6aef8c3019b6ffa73f222c3e5bc3a3dfe4c2d98c698474ae1c",
-    "images/maps-237-239-e-burbank-sale-comps.png": "a577fa9833abbebd1038c3458c6ff7927451acbcb9a56127a8ae6053ebf3df63",
-    "images/maps-237-239-e-burbank-sale-comps-tall.png": "6adfaab10d61bd4f7a5a74c66ca9f61732afa79647c20eb1a42917579967e590",
+    "images/maps-portfolio-subjects.png": "449756cdfa56e42cfb8cd18a407040509d8b2041dfb7e59df6cf8bbfe547e578",
+    "images/maps-portfolio-subjects-tall.png": "55c356920fc6538f589bfe81218d9f592dea54037951c94f547a7b195dc93fc6",
+    "images/maps-237-239-e-burbank-subject.png": "5f70f3afcd47f4a9c3a828bb37a35c89dc494d7df5acc9568d2a4f4ccfccadbe",
+    "images/maps-237-239-e-burbank-subject-tall.png": "44264b206b3b7b7918dae67fe9ea42e9a6d85f6f463ff36a6dbd6eac2d1db38e",
+    "images/maps-237-239-e-burbank-sale-comps.png": "964cb6d44a51900dd7d11525e88b945b328f910bdc3920a9e5ddba6699e885d3",
+    "images/maps-237-239-e-burbank-sale-comps-tall.png": "2de164b0c6c253a492d0140f4e5ec3e77a50adf711bcb03f11a1643554a60917",
     "images/maps-237-239-e-burbank-rent-comps.png": "182636a52c3eee7b5639e84b27ca0655210c6f2938fc175d5265a42a746ceccd",
     "images/maps-237-239-e-burbank-rent-comps-tall.png": "a75da196252f3525cf6854b81aef2ef60f319031d5c3e4ded0fcfce063653683",
     "images/maps-237-239-e-burbank-active-comps.png": "37bdb9d0846b202f5cd23f1053bbee49dd617bf7099ef5bcb2182444f7926c92",
     "images/maps-237-239-e-burbank-active-comps-tall.png": "a48d6146ad715fd8ff227c90986a458b66422b13c7daa760204e419ed57bf706",
     "images/maps-905-n-3rd-subject.png": "a43c363686154f2dd8e850f8a2e3d20a45776467276123c0f0235776a93f17f4",
-    "images/maps-905-n-3rd-subject-tall.png": "a60539adc19a5fc607158ac7761c9f1ab14d76dca8d5497544ded07d86b51deb",
-    "images/maps-905-n-3rd-sale-comps.png": "28faeb51621ca100566ae767e07639a821fbcdf5d36134d5922e9e740c990a55",
-    "images/maps-905-n-3rd-sale-comps-tall.png": "bc4974b9f86dd96d001b8cc3410d081caf25fe7130e8410d1a42611bf7a8eff9",
+    "images/maps-905-n-3rd-subject-tall.png": "400db45cd3288797820d1226d6cc38e46b022195084bafe968ba4189fcb3ee93",
+    "images/maps-905-n-3rd-sale-comps.png": "34e56da24966586774b4872325af02b859dddf92cb155a43fb012fe0650c3d8d",
+    "images/maps-905-n-3rd-sale-comps-tall.png": "99f8636ecda481e226dd20f83ed6c5ea4fe8a5e04ed8f728d8ff01b131c87db1",
     "images/maps-905-n-3rd-rent-comps.png": "02e2d7566e2fd75c708ce3f8e23a70d9aea39c5d88e4e6e65c4ac4804aed9943",
     "images/maps-905-n-3rd-rent-comps-tall.png": "a9a7069211b43f850d2f410690aa5df4b803ad9c0c2906fd20eea5eb3f5c7347",
-    "images/maps-905-n-3rd-active-comps.png": "96d362c4e0dfed1226a3958a8cc6165312550735346a131c9ae96d41b364dc16",
-    "images/maps-905-n-3rd-active-comps-tall.png": "abb9cfea9498833dd90dc2f4673b9a5ef505fc29d55e3ce15b52ea8d471f3349",
-    "images/maps-237-239-e-burbank-closings.png": "ffad2380dbb5c7dbcfc34b4be9075aec3fd935d28445d30fa1a768e50eb8ebfe"
+    "images/maps-905-n-3rd-active-comps.png": "8546c4ecc20f9699e103dbf2ed8675f4f04be41faaa1a7bf84cb449f79161c0d",
+    "images/maps-905-n-3rd-active-comps-tall.png": "e2f07dce0d7e8def2e9623ce37a78e2b58824e061714de4b93671ba0bb2c48ef",
+    "images/maps-237-239-e-burbank-closings.png": "ffad2380dbb5c7dbcfc34b4be9075aec3fd935d28445d30fa1a768e50eb8ebfe",
+    "images/maps-905-n-3rd-closings.png": "ac0424567a936c137102a146b04e2b8f49dfaaca740bc6aa65d55cc77fea0cfe"
   },
   "closings": {
     "237-239-e-burbank": {
       "source": "https://www.laaa.com/track-record",
-      "pulled": "2026-09-22T22:37:09+00:00",
+      "pulled": "2026-09-24T19:30:58+00:00",
       "basis": {
         "type": "submarket",
         "label": "Burbank"
@@ -540,7 +480,7 @@
     },
     "905-n-3rd": {
       "source": "https://www.laaa.com/track-record",
-      "pulled": "2026-09-22T22:36:52+00:00",
+      "pulled": "2026-09-24T19:30:58+00:00",
       "basis": {
         "type": "submarket",
         "label": "Burbank"
